@@ -1,3 +1,10 @@
-quine_plan.txt
-toy_stdout.txt
-verifier.py
+oxModder/images/*.xcf
+oxModder/images/*.pptx
+oxModder/images/icon.png
+oxModder/images/reference.ico
+oxModder/images/specification.txt
+oxModder/images/splashBackground_big.jpg
+
+quine/quine_plan.txt
+quine/toy_stdout.txt
+quine/verifier.py

@@ -1,0 +1,7 @@
+if (arguments.length > 0)
+{
+    TFrame.createInitialFrame(arguments[arguments.length - 1]);
+}
+else {
+    TFrame.createInitialFrame("?");
+}

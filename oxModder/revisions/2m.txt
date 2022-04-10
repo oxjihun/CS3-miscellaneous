@@ -1,0 +1,15 @@
+if (!arg.equals("?")) 
+{
+    File initialFile = new File(arg);
+    if (initialFile.exists() && !initialFile.isDirectory())
+    {
+        System.out.println("[oxMod log] " + "There is an initial file: " + arg);
+        frame.doCommand(OPEN_COMMAND, initialFile);
+    }
+    else {
+        System.out.println("[oxMod log] " + "There is no initial file: path to folder");
+    }
+}
+else {
+    System.out.println("[oxMod log] " + "There is no initial file: no arguments given");
+}
