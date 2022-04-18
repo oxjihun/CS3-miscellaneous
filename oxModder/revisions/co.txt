@@ -1,2 +1,0 @@
-<jar>MOD_NAME.jar</jar>
-<outfile>MOD_NAME.exe</outfile>
